@@ -8,20 +8,20 @@ The files include financial and e-mail data of 146 people (records), classified 
 This notebook shows how data analysis on enron dataset can be done. The goal of the analysis is to find the best machine learning algorithm with the best precision and recal metric values. Each algorithms' job on the way is to correctly classify poi(person of interest) from the dataset. POIs are who I am interested in since I think they are strongly related to Enron Scandal. POIs are chosen mannually and provided by Udacity's "Intro to Machine Learning" course. You can think of this notebook as a part of the assignment for the final project from the course.
 
 ## Approach:
-    Perform basic data analysis
-    Choose features of my interest
-    Find outliers, and remove them when needed
-    Perform various machine learning algorithms
-    Compare each results
-    Confirm the best result
+- Perform basic data analysis
+- Choose features of my interest
+- Find outliers, and remove them when needed
+- Perform various machine learning algorithms
+- Compare each results
+- Confirm the best result
     
 ## Machine Learning Part
 
-    Perform basic DecisionTree classifier on raw data
-    Perform basic DecisionTree classifier on data that outliers are removed
-    Define a function to measure accuracy, precision, and recall metrics
-    Define a function to run Pipeline with SelectKBest, and GridSearchCV
-    Run different kinds of ML algorithms with a number of different parameters
+- Perform basic DecisionTree classifier on raw data
+- Perform basic DecisionTree classifier on data that outliers are removed
+- Define a function to measure accuracy, precision, and recall metrics
+- Define a function to run Pipeline with SelectKBest, and GridSearchCV
+- Run different kinds of ML algorithms with a number of different parameters
     
 ## To Do:
   - Insert the algorithm analysis
